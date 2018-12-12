@@ -5,7 +5,45 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
+    <h1>Create a Basketball Team!</h1>
+    <form method="POST" action="/team">
+
+      <div>
+        <label for="name">Team Name:</label>
+        <input id="name" name="newteam[name]" />
+      </div>
+
+      <div>
+        <label for="coach">Coach:</label>
+        <input id="coach" name="newteam[coach]" />
+      </div>
+
+      <div>
+        <label for="g">Point Guard:</label>
+        <input id="pg" name="newteam[pg]" />
+      </div>
+
+      <div>
+        <label for="sg">Shooting Guard:</label>
+        <input id="sg" name="newteam[sg]" />
+      </div>
+
+      <div>
+        <label for="pf">Power Forward:</label>
+        <input id="pf" name="newteam[pf]" />
+      </div>
+
+      <div>
+        <label for="sf">Small Forward:</label>
+        <input id="sf" name="newteam[sf]" />
+      </div>
+
+      <div>
+        <label for="c">Center:</label>
+        <input id="c" name="newteam][c]" />
+      </div>
+
+      <input type="submit" value="Submit">
+  </form>
  </body>
 </html>
-
-
